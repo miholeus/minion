@@ -54,7 +54,7 @@ class RunCommand extends Command
      *
      * @return int CLI tool exit code.
      */
-    public function fire()
+    public function handle()
     {
         // We will start off with default options.
         $options = $this->getConfiguration();
